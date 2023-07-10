@@ -9,6 +9,10 @@
 | Model                   | NX709S |
 | Codename                | NX709S |
 
+## Device picture
+
+![Xiaomi 13](https://bludiode.com/37862/nubia-red-magic-7s-pro-12gb-256gb-preto-transparente-supernova.jpg)
+
 ### Release Notes
 * Orangefox/TWRP now boots, decryption is working fine but aren't tested in GSI.
 * It was tested in a device running RMOS 6.0 (NX709S) firmware, but it should work in RMOS 5.5 too.
@@ -28,7 +32,6 @@
 ### Issues and Bugs
 * External Storage (OTG)
 * Flashing OTA. (need test)
-* Battery percentage (only show -1)
 * Vibration/Haptics
 
 ### Credits
