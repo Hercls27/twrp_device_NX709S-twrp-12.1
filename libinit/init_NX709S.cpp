@@ -78,6 +78,10 @@ void load_device_properties(const std::string& description, const std::string& f
 
 void vendor_load_properties() {
     const std::string sku = GetProperty("ro.boot.hardware.sku", "");
-    if (sku == "NX709S") {
-        load_device_properties("nubia/NX709S/NX709S:12/SKQ1.220502.001/eng.nubia.20230513.165016:user/release-keys");
+    if (sku == "NX709S-1") {
+        load_device_properties("NX709S-user 12 SKQ1.220502.001 eng.nubia.20230513.165016 release-keys", "nubia/NX709S/NX709S:12/SKQ1.220502.001/eng.nubia.20230513.165016:user/release-keys", "NX709S", "Red Magic 7S Pro");
     }
+    if (sku == "NX709S-2") {
+        load_device_properties("NX709S-user 12 SKQ1.220502.001 eng.nubia.20230513.165016 release-keys", "nubia/NX709S/NX709S:12/SKQ1.220502.001/eng.nubia.20230513.165016:user/release-keys"); "NX709S", "Red Magic 7S Pro")
+    }
+}
