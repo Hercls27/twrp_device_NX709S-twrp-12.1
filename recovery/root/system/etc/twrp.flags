@@ -13,7 +13,7 @@
 /vbmeta_vendor         	emmc    /dev/block/bootdevice/by-name/vbmeta_vendor                        flags=display="VBMeta_Vendor";slotselect;backup=1;flashimg=1
 
 # External Partition
-/usbstorage             vfat    /dev/block/sdg    /dev/block/sdg1        flags=fsflags=utf8;display="USB-OTG";storage;wipeingui;removable
+/usbstorage             vfat    /dev/block/sdg1    /dev/block/sdg        flags=fsflags=utf8;display="USB-OTG";storage;wipeingui;removable
 
 # Additional Partitions
 /apdp               emmc      /dev/block/bootdevice/by-name/apdp
