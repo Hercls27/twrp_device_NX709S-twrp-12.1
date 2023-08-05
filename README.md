@@ -30,7 +30,6 @@
 * MTP
 
 ### Issues and Bugs
-* External Storage (OTG)
 * Flashing OTA. (need test)
 * Vibration/Haptics
 
